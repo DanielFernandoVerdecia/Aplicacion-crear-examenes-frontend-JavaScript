@@ -853,6 +853,11 @@ function Crear_preguntas(
                 
     
             }
+
+            else if(JSON.parse(localStorage.getItem("Preguntas")).length == 5){
+                alert("Solo se pueden crear máximo 5 preguntas")
+            }
+            
         }
 
 
